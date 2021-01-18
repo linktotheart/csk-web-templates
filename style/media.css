@@ -1,0 +1,323 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+      .heading {
+      padding: 0.8rem;
+      margin: 2rem 0.5rem;}
+      .heading > h1 {
+      font-size: 2.25rem;
+      }
+      h4.cards-title {
+            font-size: 1.2rem;
+        }
+
+      .padding-bottom {padding-bottom: 1.5rem;}
+      .margin-bottom {margin-bottom: 2rem;}
+      .margin-top {margin-top: 1.5rem;}
+      .padding-top {padding-top: 2.5rem !important;}
+
+      .progressbarbox {
+      padding: 0 3REM;
+      }
+      .img-container {
+      margin-right: 1rem;
+      margin-bottom: -3rem;
+      width: 80%;}
+
+      .ldBar.label-center>.ldBar-label {
+      font-size: 1.2rem;
+      }
+      .progress-label h6 {
+      font-size: 0.9rem;
+      }
+      .about-us {
+      padding: 1rem 2rem;
+      }
+
+      .title-head h4 {
+      text-align: center;
+      }
+
+      .img-test {
+            margin-bottom: -5rem;
+            border-radius: 100%;
+            width: 40%;
+      }
+
+      .carousel-caption{
+            text-align: center !important;
+      }
+
+      .carousel-caption > h1 {
+            font-size: 2.5rem;
+            font-weight: 800;}
+
+        .carousel-indicators {
+            bottom: 12.5%;}
+
+      .carousel-caption {
+            right: 10%;
+            bottom: 21.25%;}
+
+      .carousel-caption > h3 {font-size: 1.5rem;} 
+      .carousel-caption > h4 {font-size: 1.2rem;}
+      
+      .resume-para {
+            padding: 0rem 1rem;
+      }
+
+      button.navbar-toggler {
+            margin-right: 5px;
+      }
+      .contact-card{
+            margin: 1rem auto;
+            max-width: 90%;
+            text-align: center;
+            padding: 1rem;
+      }
+
+      .logo {
+            margin-right: 10rem;}
+      
+      .progress-label h6 {
+            font-size: 0.6rem;
+            }
+
+      .tl-cont{
+            flex: 0.9;
+      }
+
+      .wrapper {
+            padding: 0 2rem !important;
+        }
+      
+
+
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+      .contact-card {
+            width: 90%;
+            padding: 1rem;
+            text-align: center !important;
+            max-width: 90%;
+            margin: 1rem auto;
+
+      }
+      .foot-cont{
+            text-align: center !important;
+      }
+
+      .progressbarbox {
+            padding: 0 1REM;
+        }
+      .title-head {
+            padding-left: 1rem;
+      }
+      .img-container {
+            margin-right: 0rem;
+            width: 80% !important;
+            margin-bottom: -2rem;
+      }
+
+      .heading {
+            padding: 1rem;
+            margin: 2rem auto;
+      }
+      button.navbar-toggler {
+            margin-right: 5px;
+      }
+
+      .tl-cont{
+            flex: 0.75;
+      }
+
+      .ldBar.label-center>.ldBar-label {
+            font-size: 1.5rem;}
+
+      .img-test {
+            margin-bottom: -1rem;
+            max-width: 100%;
+      }
+      .wrapper {
+            padding: 0 2rem !important;
+        }
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media  (min-width: 768px) and (max-width: 991.98px) {
+      
+      .navbar-nav a{
+            font-size: 0.9em;
+      }
+      .heading {
+            padding: 1rem;
+            margin: 2rem auto;
+      }
+
+      .heading > h1 {
+            font-weight: 800;
+            font-size: 2.2rem;}
+      
+            .padding-bottom {padding-bottom: 2rem;};
+            .margin-bottom {margin-bottom: 2rem;};
+            .margin-top {margin-top: 2rem;};
+            .padding-top {padding-top: 2rem;}
+      
+      .img-test {
+            width: 100%;
+            margin-bottom: -1rem;
+            padding: 1rem;
+      }
+
+      .img-container {
+            margin-right: 1rem;
+            width: 40%;
+            }
+
+      .about-us {
+            padding: 1rem 1.5rem;
+            }
+
+      .padding-bottom {padding-bottom: 2rem;}
+      .margin-bottom {margin-bottom: 2rem;}
+      .margin-top {margin-top: 2rem;}
+      .padding-top {padding-top: 2.5rem !important;}
+
+      .ldBar.label-center>.ldBar-label {
+            font-size: 2rem;}
+
+      button.navbar-toggler {
+            margin-right: 5px;      }
+
+      .wrapper {
+            padding: 0 1rem !important;
+            }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media  (min-width: 992px) and (max-width: 1199.98px) { 
+      
+}
+
+
+
+
+
+/* animation background */
+
+.circles-bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+  }
+  
+  .circles-bg li{
+      position: absolute;
+      display: block;
+      list-style: none;
+      width: 20px;
+      height: 20px;
+      background:#ff006a41;
+      animation: animate 25s linear infinite;
+      bottom: -150px;
+      
+  }
+  
+  .circles-bg li:nth-child(1){
+      left: 25%;
+      width: 80px;
+      height: 80px;
+      animation-delay: 0s;
+  }
+  
+  
+  .circles-bg li:nth-child(2){
+      left: 10%;
+      width: 20px;
+      height: 20px;
+      animation-delay: 2s;
+      animation-duration: 12s;
+  }
+  
+  .circles-bg li:nth-child(3){
+      left: 70%;
+      width: 20px;
+      height: 20px;
+      animation-delay: 4s;
+  }
+  
+  .circles-bg li:nth-child(4){
+      left: 40%;
+      width: 60px;
+      height: 60px;
+      animation-delay: 0s;
+      animation-duration: 18s;
+  }
+  
+  .circles-bg li:nth-child(5){
+      left: 65%;
+      width: 20px;
+      height: 20px;
+      animation-delay: 0s;
+  }
+  
+  .circles-bg li:nth-child(6){
+      left: 75%;
+      width: 110px;
+      height: 110px;
+      animation-delay: 3s;
+  }
+  
+  .circles-bg li:nth-child(7){
+      left: 35%;
+      width: 150px;
+      height: 150px;
+      animation-delay: 7s;
+  }
+  
+  .circles-bg li:nth-child(8){
+      left: 50%;
+      width: 25px;
+      height: 25px;
+      animation-delay: 15s;
+      animation-duration: 45s;
+  }
+  
+  .circles-bg li:nth-child(9){
+      left: 20%;
+      width: 15px;
+      height: 15px;
+      animation-delay: 2s;
+      animation-duration: 35s;
+  }
+  
+  .circles-bg li:nth-child(10){
+      left: 85%;
+      width: 150px;
+      height: 150px;
+      animation-delay: 0s;
+      animation-duration: 11s;
+  }
+  
+  
+  
+@keyframes animate {
+  
+      0%{
+          transform: translateY(0) rotate(0deg);
+          opacity: 1;
+          border-radius: 050%;
+      }
+  
+      100%{
+          transform: translateY(-1000px) rotate(720deg);
+          opacity: 0.1;
+          border-radius: 0%;
+      }
+  
+  }
